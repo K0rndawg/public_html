@@ -1,0 +1,279 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url('pics/ocean_bg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #3106ee;
+    padding: 25px 0;
+}
+/* Style navigation bar*/
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links li {
+    margin-right: 80px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.nav-links a:hover {
+    color: #1100ad;
+    border-bottom: 2px solid #1100ad;
+}
+
+/* Style the main content section */
+.about-me {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #13bafc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.profile-image img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.description {
+    flex: 1;
+}
+
+.description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/*Portfolio Elements*/
+/* Style the container */
+.project_cont{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color:  #13bafc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+/* Style the project table */
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color:  #13bafc;
+}
+
+/* Style each row in the project table */
+.project-table tr {
+    border-bottom: 1px solid #13bafc;
+}
+
+/* Style the left column (project images) */
+.project-image {
+    width: 30%;
+    padding: 40px;
+    vertical-align: top;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the right column (project details) */
+.project-details {
+    width: 70%;
+    padding: 10px;
+    background-color:  #13bafc;
+}
+
+.project-details h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.project-details a {
+    text-decoration: none;
+    color: #003e80;
+    font-size: 16px;
+}
+
+.project-details a:hover {
+    text-decoration: none;
+    color: #5900ff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*Qualification Elements */
+
+/* Style the PDF container */
+.pdf-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center the iframe */
+}
+
+/* Style the iframe */
+iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 600px; /* Adjust the height as needed */
+    border: none; /* Remove the iframe border */
+}
+
+/* Style the text container */
+.text-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #13bafc;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Service Page*/
+
+/* Style the table container */
+.table-container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #13bafc;
+}
+
+/* Style the service table */
+.service-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+/* Style each row in the service table */
+.service-table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the service cells */
+.service-cell {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-cell img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-cell h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-cell p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.service-cell a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.service-cell a:hover {
+    text-decoration: none;
+    color: #5900ff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* AI Page Style*/
+
+/* Introduction styles */
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+.intro img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Hobby section styles (you can customize further) */
+.hobby {
+    padding: 50px;
+}
+.hobby h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.hobby p {
+    text-align: center;
+}
+
+.hobby img {
+    height: 250px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1064ff;
+    padding: 20px;
+}
+.contact-info p {
+    margin: 0;
+}
+

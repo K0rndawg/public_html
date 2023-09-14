@@ -19,6 +19,7 @@ function toggleStyleSheet(){
     // TASK 2
     // 2 (d) For persistence when page is refreshed. save new stylesheet name to localStorage
     // hint: localStorage.setItem(name, value)
+    // if (!curr_sheet.endsWith("2.css"))
     localStorage.setItem("style_ref", curr_sheet);
 }
 
