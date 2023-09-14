@@ -2,11 +2,12 @@ body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 header {
-    background-image: url('ocean_bg.jpg');
+    background-image: url('pics/ocean_bg.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
