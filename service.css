@@ -2,6 +2,7 @@ body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -96,4 +97,13 @@ nav {
     font-size: 16px;
 }
 
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.contact-info p {
+    margin: 0;
+}
 
