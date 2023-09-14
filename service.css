@@ -46,15 +46,17 @@ nav {
 
 /* Style the table container */
 .table-container {
-    max-width: 960px;
+    max-width: 2000px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #13bafc;
 }
 
 /* Style the service table */
 .service-table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #ffffff;
 }
 
 /* Style each row in the service table */
@@ -100,7 +102,8 @@ nav {
 /* Footer styles */
 footer {
     text-align: center;
-    background-color: #f2f2f2;
+    color: white;
+    background-color: #1064ff;
     padding: 20px;
 }
 .contact-info p {

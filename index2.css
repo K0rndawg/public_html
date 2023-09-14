@@ -1,16 +1,27 @@
-body, ul, li {
+body{
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('pics/bgpic.jpg');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
 header {
-    background-image: url('pics/ocean_bg.jpg');
+    background-color: black;
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
-    color: #3106ee;
     padding: 25px 0;
 }
 /* Style navigation bar*/
@@ -33,14 +44,13 @@ nav {
 }
 
 .nav-links a {
-    color: #ffffff;
+    color: #15ff00;
     text-decoration: none;
     font-size: 36px;
 }
 
 .nav-links a:hover {
-    color: #1100ad;
-    border-bottom: 2px solid #1100ad;
+    color: #fffb00;
 }
 
 /* Style the main content section */
@@ -48,7 +58,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #13bafc;
+    background-color: #323b3b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
@@ -68,6 +78,7 @@ nav {
 .description h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #15ff00;
 }
 
 .description p {
@@ -78,8 +89,8 @@ nav {
 /* Footer styles */
 footer {
     text-align: center;
-    color: white;
-    background-color: #1064ff;
+    color: rgb(0, 0, 0);
+    background-color: #aaaaaa;
     padding: 20px;
 }
 .contact-info p {
