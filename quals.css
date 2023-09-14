@@ -1,0 +1,82 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+header {
+    background-image: url('ocean_bg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #3106ee;
+    padding: 25px 0;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links li {
+    margin-right: 80px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.nav-links a:hover {
+    color: #1100ad;
+    border-bottom: 2px solid #1100ad;
+}
+
+
+/* Style the PDF container */
+.pdf-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center the iframe */
+}
+
+/* Style the iframe */
+iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 600px; /* Adjust the height as needed */
+    border: none; /* Remove the iframe border */
+}
+
+/* Style the text container */
+.text-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #13bafc;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+

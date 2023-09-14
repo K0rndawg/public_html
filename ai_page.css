@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    position: relative;
+}
+.header-image {
+    background-image: url('bgpic.jpg');
+    background-size: cover;
+    height: 300px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Introduction styles */
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+.intro img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Hobby section styles (you can customize further) */
+.hobby {
+    padding: 50px;
+}
+.hobby h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.hobby p {
+    text-align: center;
+}
+
+.hobby img {
+    height: 250px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.contact-info p {
+    margin: 0;
+}
