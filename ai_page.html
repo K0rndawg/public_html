@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hobbies</title>
-    <link rel="stylesheet" href="style.css">
+    <link id="mainStyleSheet" rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -37,10 +37,9 @@
         <p>
             I love playing video games in my free time. From action-packed adventures to strategic simulations, video games are my escape.
         </p>
-        <div class="image-gallery">
-            <!-- Add images of you playing video games -->
-            <img src="pics/gamingpic.jpg" alt="gaming">
-        </div>
+        
+        <img src="pics/gamingpic.jpg" alt="gaming">
+        
     </section>
 
     <section class="hobby" id="working-out">
@@ -78,14 +77,17 @@
             <img src="pics/bandpic.jpg" alt="band">
         </div>
     </section>
-
-    <footer>
-        <!-- Footer Section -->
-        <div class="contact-info">
-            <p>Contact me at: akearney@tamu.edu</p>
-            <!-- Add social media links -->
-        </div>
-        <p>&copy; 2023 Alex Kearney</p>
-    </footer>
 </body>
+<footer>
+    <!-- Footer Section -->
+    <div class="contact-info">
+        <p>Contact me at: akearney@tamu.edu</p>
+        <!-- Add social media links -->
+    </div>
+    <p>&copy; 2023 Alex Kearney</p>
+    <div class="style_button">
+        <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+      </div>
+      <script src="functions.js"></script>
+</footer>
 </html>

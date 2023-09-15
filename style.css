@@ -121,6 +121,7 @@ nav {
 .project-details h2 {
     font-size: 18px;
     margin-bottom: 10px;
+    color: #000981;
 }
 
 .project-details p {
@@ -171,6 +172,7 @@ iframe {
 .text-container h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #000981;
 }
 
 .text-container p {
@@ -214,6 +216,7 @@ iframe {
 .service-cell h2 {
     font-size: 18px;
     margin-bottom: 10px;
+    color:#000981;
 }
 
 .service-cell p {
@@ -248,7 +251,7 @@ iframe {
     margin-bottom: 20px;
 }
 
-/* Hobby section styles (you can customize further) */
+/* Hobby section styles */
 .hobby {
     padding: 50px;
 }
@@ -263,17 +266,31 @@ iframe {
 .hobby img {
     height: 250px;
     margin: 0 auto;
-    align-content: center;
+    align-self: center;
 }
 
 /* Footer styles */
 footer {
     text-align: center;
     color: white;
-    background-color: #1064ff;
+    background-color: #0035af;
     padding: 20px;
 }
 .contact-info p {
     margin: 0;
 }
 
+/*Toggle Style Button*/
+.style_button button{
+    background-color: #001486;  
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.style_button button:hover {
+    background-color: #2e3038;
+    color: #09ff00;
+}
