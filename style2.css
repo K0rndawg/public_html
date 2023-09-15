@@ -265,10 +265,12 @@ iframe {
 /* Hobby section styles*/
 .hobby {
     padding: 50px;
+    text-align: center;
 }
 .hobby h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    
 }
 .hobby p {
     text-align: center;
@@ -277,7 +279,6 @@ iframe {
 .hobby img {
     height: 250px;
     margin: 0 auto;
-    align-self: center;
 }
 
 /* Footer styles */
