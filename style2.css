@@ -120,6 +120,7 @@ nav {
 .project-image img {
     max-width: 100%;
     height: auto;
+    
 }
 
 /* Style the right column (project details) */
@@ -142,8 +143,9 @@ nav {
 
 .project-details a {
     text-decoration: none;
-    color: #00ff15;
+    color: #009600;
     font-size: 16px;
+    
 }
 
 .project-details a:hover {
@@ -198,14 +200,13 @@ iframe {
     max-width: 2000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #323b3b;
+    /* background-color: #323b3b; */
 }
 
 /* Style the service table */
 .service-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #323b3b;
 }
 
 /* Style each row in the service table */
@@ -217,6 +218,7 @@ iframe {
 .service-cell {
     padding: 20px;
     text-align: center;
+    background-color: #323b3b;
 }
 
 .service-cell img {
