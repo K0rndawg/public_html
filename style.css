@@ -1,7 +1,17 @@
-body, ul, li {
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('pics/ocean_bg2.jpg');
+    background-size: cover;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -187,14 +197,12 @@ iframe {
     max-width: 2000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #13bafc;
 }
 
 /* Style the service table */
 .service-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #ffffff;
 }
 
 /* Style each row in the service table */
@@ -206,6 +214,7 @@ iframe {
 .service-cell {
     padding: 20px;
     text-align: center;
+    background-color: #13bafc;
 }
 
 .service-cell img {
@@ -226,7 +235,7 @@ iframe {
 
 .service-cell a {
     text-decoration: none;
-    color: #007bff;
+    color: #5d85b1;
     font-weight: bold;
     font-size: 16px;
 }

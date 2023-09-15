@@ -67,7 +67,7 @@ nav {
 .profile-image img {
     max-width: 75%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-right: 20px;
 }
 
@@ -200,7 +200,6 @@ iframe {
     max-width: 2000px;
     margin: 0 auto;
     padding: 20px;
-    /* background-color: #323b3b; */
 }
 
 /* Style the service table */
